@@ -71,3 +71,23 @@ body {
     left: -30px;
 }
 
+.quote-container div {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container button {
+    background: rgb(23, 124, 129);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(1, 46, 48);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
