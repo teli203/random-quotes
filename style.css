@@ -1,8 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,4 +23,22 @@ body {
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 10px 20px;
+}
+
+.quote-container h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.quote-container h2::after {
+    content: '';
+    width: 75px;
+    height: 5px;
+    border-radius: 3px;
+    background: rgb(23, 124, 129);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
