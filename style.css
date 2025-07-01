@@ -42,3 +42,19 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+
+.quote-container blockquote {
+    font-size: 26px;
+    min-height: 110px;
+}
+
+.quote-container blockquote::before, .quote-container blockquote::after {
+    content: "''";
+}
+
+.quote-container span {
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
