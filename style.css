@@ -80,6 +80,7 @@ body {
 
 .quote-container button {
     background: rgb(23, 124, 129);
+    font-size: small;
     color: #fff;
     border-radius: 25px;
     border: 1px solid rgb(1, 46, 48);
@@ -94,7 +95,7 @@ body {
 
 .quote-container button img {
     width: 25px;
-    margin-right: 10px;
+    margin-right: 7px;
     color: black;
 }
 
@@ -104,4 +105,14 @@ body {
 }
 
 /* Media Queries */
+@media (max-width: 768px) {
+    .quote-container {
+        width: 75%;
+}
 
+h2,
+#quote {
+    font-size: 20px;
+}
+
+}
