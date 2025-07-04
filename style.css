@@ -72,7 +72,7 @@ body {
     left: -30px;
 }
 
-.quote-container div {
+.r_qt {
     width: 100%;
     margin-top: 50px;
     display: flex;
@@ -105,15 +105,26 @@ body {
     color: rgb(1, 46, 48);
 }
 
+.info {
+    font-size: 12px;
+    padding:15px;
+    margin-top: 125px;
+    border: 1px solid grey;
+}
+
 /* Media Queries */
+
 @media (max-width: 768px) {
-    .quote-container {
-        width: 75%;
+.quote-container {
+    width: 75%;
 }
 
 h2,
 #quote {
-    font-size: 20px;
+    font-size: 18px;
 }
 
+.info {
+    font-size: 10px;
+}
 }
